@@ -1,9 +1,12 @@
 # Obfuscate Python 
 
+<img src="https://github.com/user-attachments/assets/9e0a8f93-ab71-427a-80a6-b19f675b5f98"> 
+
 - `A program to encrypt the contents of the Python file! `
 
 - Runs on Termux/Linux/Windows 
 - Compatible with Python 2 and 3 
+- Multi-layer encryption capability 
 
 ## Cryptographic algorithms: 
 
@@ -91,6 +94,8 @@ Encode Marshal,Zlib,Lzma,Gzip,B64
 Simple Encode  
 
 ```
+
+<img src="https://github.com/user-attachments/assets/f88c1afb-471d-4ccc-8259-72b4c94a3c80"> 
 
 <a href="https://t.me/esfelurm"> main channel
 <a href="https://t.me/DedSec_Network"> Channel 2
