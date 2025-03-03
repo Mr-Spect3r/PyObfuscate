@@ -61,7 +61,7 @@ def banner():
                          .        {k}     .+@@%-           
                                    {k}      .*@@%-         
                                    {k}        .+*:
-    {gn}Python Obfuscate | TG: @esfelurm & @DedSec_Network                            
+    {gn}Python Obfuscate | TG: @esfelorm & @BuferOverFlow                            
                                    ''')
 
 def menu():
