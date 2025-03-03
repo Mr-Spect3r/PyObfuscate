@@ -97,8 +97,8 @@ Simple Encode
 
 <img src="https://github.com/user-attachments/assets/f88c1afb-471d-4ccc-8259-72b4c94a3c80"> 
 
-<a href="https://t.me/esfelurm"> main channel
+<a href="https://t.me/esfelorm"> main channel
 
 
-<a href="https://t.me/DedSec_Network"> Channel 2
+<a href="https://t.me/BuferOverFlow"> Channel 2
 
