@@ -61,7 +61,7 @@ def banner():
                          .        {k}     .+@@%-           
                                    {k}      .*@@%-         
                                    {k}        .+*:
-    {gn}Python Obfuscate | TG: @esfelorm & @BuferOverFlow                            
+    {gn}Python Obfuscate | TG: @MrMrEsfelurm                            
                                    ''')
 
 def menu():
@@ -128,124 +128,124 @@ def Encode(option,data,output):
     loop = int(eval(_input % f"{tr} Encode Count : "))
     if option == 1:
         xx = "mar(data.encode('utf8'))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__[::-1]);"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__[::-1]);"
     elif option == 2:
         xx = "zlb(data.encode('utf8'))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('zlib').decompress(__[::-1]);"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('zlib').decompress(__[::-1]);"
     elif option == 3:
         xx = "b16(data.encode('utf8'))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('base64').b16decode(__[::-1]);"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('base64').b16decode(__[::-1]);"
     elif option == 4:
         xx = "b32(data.encode('utf8'))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('base64').b32decode(__[::-1]);"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('base64').b32decode(__[::-1]);"
     elif option == 5:
         xx = "b64(data.encode('utf8'))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('base64').b64decode(__[::-1]);"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('base64').b64decode(__[::-1]);"
     elif option == 6:
         xx = "lzm(data.encode('utf8')[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('lzma').decompress(__[::-1]);"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('lzma').decompress(__[::-1]);"
     elif option == 7:
         xx = "gzi(data.encode('utf8')[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('gzip').decompress(__[::-1]);"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('gzip').decompress(__[::-1]);"
     elif option == 8:
         xx = "b16(zlb(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('zlib').decompress(__import__('base64').b16decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('zlib').decompress(__import__('base64').b16decode(__[::-1]));"
     elif option == 9:
         xx = "b32(zlb(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('zlib').decompress(__import__('base64').b32decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('zlib').decompress(__import__('base64').b32decode(__[::-1]));"
     elif option == 10:
         xx = "b64(zlb(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));"
     elif option == 11:
         xx = "b16(gzi(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('gzip').decompress(__import__('base64').b16decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('gzip').decompress(__import__('base64').b16decode(__[::-1]));"
     elif option == 12:
         xx = "b32(gzi(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('gzip').decompress(__import__('base64').b16decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('gzip').decompress(__import__('base64').b16decode(__[::-1]));"
     elif option == 13:
         xx = "b64(gzi(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('gzip').decompress(__import__('base64').b16decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('gzip').decompress(__import__('base64').b16decode(__[::-1]));"
     elif option == 14:
         xx = "b16(lzm(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('lzma').decompress(__import__('base64').b16decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('lzma').decompress(__import__('base64').b16decode(__[::-1]));"
     elif option == 15:
         xx = "b32(lzm(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('lzma').decompress(__import__('base64').b16decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('lzma').decompress(__import__('base64').b16decode(__[::-1]));"
     elif option == 16:
         xx = "b64(lzm(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('lzma').decompress(__import__('base64').b16decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('lzma').decompress(__import__('base64').b16decode(__[::-1]));"
     elif option == 17:
         xx = "zlb(mar(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__[::-1]));"
     elif option == 18:
         xx = "gzi(mar(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__[::-1]));"
     elif option == 19:
         xx = "lzm(mar(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__[::-1]));"
     elif option == 20:
         xx = "b16(mar(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('base64').b16decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('base64').b16decode(__[::-1]));"
     elif option == 21:
         xx = "b32(mar(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('base64').b32decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('base64').b32decode(__[::-1]));"
     elif option == 22:
         xx = "b64(mar(data.encode('utf8')))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('base64').b64decode(__[::-1]));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('base64').b64decode(__[::-1]));"
     elif option == 23:
         xx = "b16(zlb(mar(data.encode('utf8'))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b16decode(__[::-1])));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b16decode(__[::-1])));"
     elif option == 24:
         xx = "b32(zlb(mar(data.encode('utf8'))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b32decode(__[::-1])));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b32decode(__[::-1])));"
     elif option == 25:
         xx = "b64(zlb(mar(data.encode('utf8'))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])));"
     elif option == 26:
         xx = "b16(lzm(mar(data.encode('utf8'))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('base64').b16decode(__[::-1])));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('base64').b16decode(__[::-1])));"
     elif option == 27:
         xx = "b32(lzm(mar(data.encode('utf8'))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('base64').b32decode(__[::-1])));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('base64').b32decode(__[::-1])));"
     elif option == 28:
         xx = "b64(lzm(mar(data.encode('utf8'))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('base64').b64decode(__[::-1])));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('base64').b64decode(__[::-1])));"
     elif option == 29:
         xx = "b16(gzi(mar(data.encode('utf8'))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('base64').b16decode(__[::-1])));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('base64').b16decode(__[::-1])));"
     elif option == 30:
         xx = "b32(gzi(mar(data.encode('utf8'))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('base64').b32decode(__[::-1])));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('base64').b32decode(__[::-1])));"
     elif option == 31:
         xx = "b64(gzi(mar(data.encode('utf8'))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('base64').b64decode(__[::-1])));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('base64').b64decode(__[::-1])));"
     elif option == 32:
         xx = "b16(zlb(lzm(mar(data.encode('utf8')))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b16decode(__[::-1]))));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b16decode(__[::-1]))));"
     elif option == 33:
         xx = "b32(zlb(lzm(mar(data.encode('utf8')))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b32decode(__[::-1]))));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b32decode(__[::-1]))));"
     elif option == 34:
         xx = "b64(zlb(lzm(mar(data.encode('utf8')))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1]))));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1]))));"
     elif option == 35:
         xx = "b16(zlb(gzi(mar(data.encode('utf8')))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('zlib').decompress(__import__('base64').b16decode(__[::-1]))));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('zlib').decompress(__import__('base64').b16decode(__[::-1]))));"
     elif option == 36:
         xx = "b32(zlb(gzi(mar(data.encode('utf8')))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('zlib').decompress(__import__('base64').b32decode(__[::-1]))));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('zlib').decompress(__import__('base64').b32decode(__[::-1]))));"
     elif option == 37:
         xx = "b64(zlb(gzip(mar(data.encode('utf8')))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1]))));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1]))));"
     elif option == 38:
         xx = "b16(zlb(lzm(gzi(mar(data.encode('utf8'))))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])))));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])))));"
     elif option == 39:
         xx = "b32(zlb(lzm(gzi(mar(data.encode('utf8'))))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])))));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])))));"
     elif option == 40:
         xx = "b64(zlb(lzm(gzi(mar(data.encode('utf8'))))))[::-1]"
-        heading = "# Encoded By @esfelurm | @DedSec_Network | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])))));"
+        heading = "# Encoded By @MrEsfelurm | https://github/Mr-Spect3r\n\n_ = lambda __ : __import__('marshal').loads(__import__('gzip').decompress(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])))));"
     else:
         sys.exit("\n Invalid Option!")
     
