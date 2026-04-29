@@ -2,7 +2,7 @@
 
 [![Python Version](https://img.shields.io/badge/python-2.7%20%7C%203.x-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Telegram](https://img.shields.io/badge/Telegram-@MrMrEsfelurm-blue.svg)](https://t.me/MrMrEsfelurm)
+[![Telegram](https://img.shields.io/badge/Telegram-@MrMrEsfelurm-blue.svg)](https://t.me/MrEsfelurm)
 
 <img src="https://github.com/user-attachments/assets/9e0a8f93-ab71-427a-80a6-b19f675b5f98" width="600" alt="PyObfuscator Banner">
 
